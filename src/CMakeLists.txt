@@ -6,6 +6,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
 add_executable(terraneko
     main.cc
 
+    field/field.cc
+
     meta/assert.cc
     meta/boot.cc
     meta/modal.cc
